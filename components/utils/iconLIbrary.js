@@ -66,6 +66,11 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
+import {
+  faSquare as faSquareReg,
+  faCheckSquare,
+} from "@fortawesome/free-regular-svg-icons";
+
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 export default function() {
@@ -83,6 +88,7 @@ export default function() {
     faBan,
     faBold,
     faCheck,
+    faCheckSquare,
     faChevronDown,
     faChevronRight,
     faChevronLeft,
@@ -125,6 +131,7 @@ export default function() {
     faSortUp,
     faSortDown,
     faSquare,
+    faSquareReg,
     faStepBackward,
     faStepForward,
     faStrikethrough,

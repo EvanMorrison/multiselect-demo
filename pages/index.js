@@ -23,7 +23,7 @@ const MultiSelectDemo = props => {
       <div css={{flex: 1, maxWidth: 1200, margin: "20px 8px"}}>
         <MDXContent/>
         <div css={{maxWidth: 600, marginTop: 30}}>
-          <Field formLinker={formLinker.current} name="demo1" label="Multiselect Component" type="multiSelect" options={demo1List}/>
+          <Field formLinker={formLinker.current} name="demo1" label="Multiselect Component" checkboxes type="multiSelect" options={demo1List}/>
         </div>
       </div>
     </div>
