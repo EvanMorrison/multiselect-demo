@@ -14,6 +14,7 @@ const AppLayout = props => {
     <ThemeProvider theme={theme}>
       <Global styles={globalStyle}/>
       <Head>
+        <title>Multiselect Demo</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"/>
       </Head>
       {props.children}
