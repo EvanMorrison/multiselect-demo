@@ -1,4 +1,12 @@
-# Multiselect Component
+# Multiselect
 ___
 
-### This is a demo page for a multiselect component built for React
+### This page demos a multiselect component built for React
+
+Click in the input to open the options list. With the options list open, typing filters the available options. Hit the Enter key to select all currently listed options, or if all listed options are selected hitting enter will deselect them all. Optionally use the down/up arrow keys to navigate the list, and hit enter to select the currently active (highlighted) item, or deselect it if it is already selected.
+
+When using the multiselect in a React form, the component takes a list of options as the `options` prop. Each option is an object with `label` and `value` key/value pairs, and optionally `sortGroupLabel` and `sortGroupOrder` properties that, if present, will group the list items accordingly.
+
+By default the options list is presented in 2 columns, but using the `columns` prop you can specify any number from 1 to 4. Also, you can include a `showAllSelected` prop to have the component show a comma-separated list of all selected options in the input area when it does not have focus. By default it displays only the first line of selected options truncated by an ellipsis.
+
+The following examples have a different mix of prop values to showcase a variety of options.
