@@ -22,7 +22,7 @@ const MultiSelectDemo = props => {
   }))
 
   return(
-    <div css={{width: "100%", display: "flex", justifyContent: "center"}}>
+    <div css={{width: "100%", display: "flex", justifyContent: "center", minHeight: 950}}>
       <div css={{flex: 1, maxWidth: 1200, margin: "20px 8px"}}>
         <div css={{h1: {background: "#38f", color: "#fff", padding: 8}, code: {background: "rgba(150, 150, 150, 0.3)"}}}>
           <MDXContent/>
