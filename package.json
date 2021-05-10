@@ -33,7 +33,7 @@
     "emotion-theming": "^10.0.27",
     "form-linker": "^1.0.9",
     "hex-rgb": "^4.1.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "next": "^9.3.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
